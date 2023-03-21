@@ -3,11 +3,25 @@
 ```
 .
 ├── app.module.ts
+├── const
+│   └── index.ts
+├── database
+│   ├── migration
+│   │   └── index.ts
+│   └── seed
+│       └── index.ts
+├── decorator
+│   └── index.ts
+├── guard
+│   └── index.ts
 ├── main.ts
+├── model
+│   └── task.model.ts
+├── module
+│   └── task.module.ts
+├── resolver
+│   └── task.resolver.ts
 ├── schema.gql
-└── task
-    ├── task.model.ts
-    ├── task.module.ts
-    ├── task.resolver.ts
-    └── task.service.ts1
+└── service
+    └── task.service.ts
 ```

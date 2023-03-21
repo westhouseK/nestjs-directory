@@ -1,7 +1,7 @@
 import { Query, Resolver } from '@nestjs/graphql';
-import { TaskService } from './task.service';
+import { TaskService } from '../service/task.service';
 
-import { Task } from './task.model';
+import { Task } from '../model/task.model';
 
 @Resolver(() => Task)
 export class TaskResolver {
