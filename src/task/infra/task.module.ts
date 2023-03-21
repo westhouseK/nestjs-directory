@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { TaskResolver } from './task.resolver';
-import { TaskService } from './task.service';
+import { TaskResolver } from '../presenter/task.resolver';
+import { TaskService } from '../domain/task.service';
 
 @Module({
   providers: [TaskResolver, TaskService],

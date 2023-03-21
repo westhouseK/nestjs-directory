@@ -6,8 +6,13 @@
 ├── main.ts
 ├── schema.gql
 └── task
-    ├── task.model.ts
-    ├── task.module.ts
-    ├── task.resolver.ts
-    └── task.service.ts
+    ├── domain
+    │   ├── task.model.ts
+    │   └── task.service.ts
+    ├── infra
+    │   └── task.module.ts
+    ├── presenter
+    │   └── task.resolver.ts
+    └── usecase
+        └── index.ts
 ```
