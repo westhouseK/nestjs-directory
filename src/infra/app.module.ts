@@ -2,8 +2,9 @@ import { Module } from '@nestjs/common';
 
 import { ApolloDriverConfig, ApolloDriver } from '@nestjs/apollo';
 import { GraphQLModule } from '@nestjs/graphql';
-import { TaskModule } from './task/task.module';
+
 import { join } from 'path';
+import { TaskModule } from './task.module';
 
 @Module({
   imports: [

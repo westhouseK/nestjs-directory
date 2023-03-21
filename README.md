@@ -2,12 +2,15 @@
 `src`配下
 ```
 .
-├── app.module.ts
+├── domain
+│   ├── task.model.ts
+│   └── task.service.ts
+├── infra
+│   ├── app.module.ts
+│   └── task.module.ts
 ├── main.ts
+├── presenter
+│   └── task.resolver.ts
 ├── schema.gql
-└── task
-    ├── task.model.ts
-    ├── task.module.ts
-    ├── task.resolver.ts
-    └── task.service.ts
+└── usecase
 ```
