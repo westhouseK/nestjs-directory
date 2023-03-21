@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Task {
+  id: String!
+  name: String!
+  remarks: String
+}
+
+type Query {
+  getTask: Task!
+}
