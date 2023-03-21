@@ -9,5 +9,5 @@
     ├── task.model.ts
     ├── task.module.ts
     ├── task.resolver.ts
-    └── task.service.ts1
+    └── task.service.ts
 ```
